@@ -5,6 +5,15 @@
 - Works out of the box using built-in Unity components.
 
 ### How to Run
+
+#### 🖥️ Server Setup
+
+1. python -m venv venv
+2. pip install -r requirements.txt
+3. python init.py         |
+
+###  🎮 Unity Setup
+
 1. Open the project in Unity.
 2. Load the `Main` scene from the Project window.
 3. Press **Play** in the Editor.
