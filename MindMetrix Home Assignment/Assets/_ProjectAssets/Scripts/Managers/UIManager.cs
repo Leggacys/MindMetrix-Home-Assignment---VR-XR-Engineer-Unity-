@@ -5,6 +5,7 @@ using UnityEngine.UI;
 /// <summary>
 /// Manager for handling UI interactions, specifically closing the main UI and notifying when the start button is pressed.
 /// </summary>
+/// 
 public class UIManager : MonoBehaviour
 {
     public static Action onStartButtonPressed;

@@ -8,8 +8,8 @@ using UnityEngine.Networking;
 /// </summary>
 public class NetworkManager : MonoBehaviour
 {
-    private readonly string _reactionEventsEndpoint = "https://localhost:5001/api/reaction/events";
-    private readonly string _reactionSummaryEndpoint = "https://localhost:5001/api/reaction/summary";
+    private readonly string _reactionEventsEndpoint = "http://localhost:5001/api/reaction/events";
+    private readonly string _reactionSummaryEndpoint = "http://localhost:5001/api/reaction/summary";
 
     public void SendReactionEvents(List<ReactionEvent> reactionEvents)
     {

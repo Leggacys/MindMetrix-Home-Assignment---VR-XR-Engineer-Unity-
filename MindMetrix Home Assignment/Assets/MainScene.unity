@@ -439,8 +439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 687dd5e6ad1bfa843838c0cd5f9d28c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCanvas: {fileID: 0}
-  graphicRaycaster: {fileID: 0}
+  mainCanvas: {fileID: 723837803}
+  graphicRaycaster: {fileID: 723837801}
 --- !u!1 &732824951
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb975abc75427d44ba4806a3dda9e62b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stimulusType: 2
+  stimulusType: 0
 --- !u!1 &1183729140
 GameObject:
   m_ObjectHideFlags: 0
@@ -5838,7 +5838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51fc3e0c6771c84780f9b90eda60bd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stimulusType: 1
+  stimulusType: 0
   moveSpeed: 2
   moveRadius: 3
   minDistance: 1
@@ -6465,9 +6465,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stimulusType: 0
-  ren: {fileID: 3602232593620176180}
+  ren: {fileID: 0}
   idleColor: {r: 1, g: 1, b: 1, a: 1}
-  activeColor: {r: 1, g: 0, b: 0.9039521, a: 1}
+  activeColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &8713036829031549835
 GameObject:
   m_ObjectHideFlags: 0
