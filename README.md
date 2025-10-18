@@ -51,6 +51,8 @@ Example of JSON containing individual reaction events collected during a session
   ]
 }
 
+```
+
 ### 🔹 Session Summary
 Example of the aggregated session summary generated after all trials are completed:
 
@@ -63,6 +65,8 @@ Example of the aggregated session summary generated after all trials are complet
   "hitAccuracy": 0.6666666666666666,
   "averageReactionTime": 228
 }
+
+```
 
 ## 🧠 Data Flow and Design Choices
 
